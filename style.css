@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('shoes.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+header h2{
+    color: #fff;
+    font-size: 2rem;
+    margin: 5px;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-left:50%;
+    margin-top: -6%;
+}
+.nav a{
+
+    
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 40px;
+    text-decoration: none;
+    
+}
+.wrapper h1{
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 10%;
+    padding: 10px;
+}
+.part p{
+    margin-top: -5px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 10px;
+}
+.part button{
+    background-color: #fff;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 500;
+    color: rgb(28, 70, 104);
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.part button:active{
+    background: transparent;
+    color: #fff;
+    transition: .2s;
+    cursor: pointer;
+}
